@@ -1,0 +1,38 @@
+main {
+    height: 100vh;
+    &>.escaparate {
+        border: 3px solid gray;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        text-transform: capitalize;
+        &>.contenedorCat {
+            border: 1px solid black;
+            width: 100%;
+            align-self: flex-start;
+            &>.prueba {
+                height: 30vh;
+            }
+            &>.legend {
+                border-bottom: 1px solid black;
+                font-size: 32px;
+                display: flex;
+                align-items: center;
+                padding-left: 10px;
+                &>img {
+                    padding-left: 20px;
+                }
+            }
+        }
+    }
+}
+
+svg {
+    fill: white;
+}
+
+footer {
+    padding: 20px;
+}

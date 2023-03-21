@@ -1,0 +1,43 @@
+main {
+  height: 100vh;
+}
+main > .escaparate {
+  border: 3px solid gray;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+main > .escaparate > .contenedorCat {
+  border: 1px solid black;
+  width: 100%;
+  align-self: flex-start;
+}
+main > .escaparate > .contenedorCat > .prueba {
+  height: 30vh;
+}
+main > .escaparate > .contenedorCat > .legend {
+  border-bottom: 1px solid black;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+main > .escaparate > .contenedorCat > .legend > img {
+  padding-left: 20px;
+}
+
+svg {
+  fill: white;
+}
+
+footer {
+  padding: 20px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}/*# sourceMappingURL=estilosTFC.css.map */
